@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="Gallerystyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="gstyle">
+		
+	<a href="images/tn_1556265947_9271.jpg" target="_blank">
+	<img src="images/tn_1556265947_9271.jpg"></a><p class="pstyle">POST1</p>
+	
+	</div>
+	<div class="gstyle">
+	<a href="images/tn_1552990125_9293.jpg" target="_blank">
+	<img src="images/tn_1552990125_9293.jpg"></a><p class="pstyle">POST2</p>
+	
+	</div>
+	<div class="gstyle">
+	<a href="images/tn_1548098820_2868.jpg" target="_blank">
+	<img src="images/tn_1548098820_2868.jpg"></a><p class="pstyle">POST3</p>
+	
+	</div>
+	<div class="gstyle">
+	<a href="images/nody-عکس-گل-و-گیاه-در-طبیعت-1626036443.jpg" target="_blank">
+	<img src="images/nody-عکس-گل-و-گیاه-در-طبیعت-1626036443.jpg"></a><p class="pstyle">POST4</p>
+	
+	</div>
+	<div class="gstyle">
+	<a href="images/tn_1556265947_9271.jpg" target="_blank">
+	<img src="images/nody-عکس-دسته-گلهای-بسیار-زیبا-1626036445.jpg"></a><p class="pstyle">POST5</p>
+	
+	</div>
+	
+	<div class="gstyle">
+	<img src="images/nody-عکس-انواع-گل-آپارتمانی-1620000630.jpg"></a><p class="pstyle">POST6</p>
+	
+	</div>
+	
+</body>
+
+</html>
