@@ -1,0 +1,41 @@
+@charset "utf-8";
+.master{
+	   width: 1275px;
+	   background-color: aqua;
+	   
+	   margin-left: auto;
+	   margin-right: auto;
+       position: relative;
+}
+
+.gstyle{
+	   border: 1px solid #545454;
+	   width: 200px;
+	   float: left;
+	   margin: 5px;
+	   border-radius: 8px;
+	   transition: all 1s;
+	
+	
+	
+}.gstyle img{
+	       width: 100%;
+	       height: 180px;
+	       border-radius: 8px 8px 0px 0px;
+	       transition: all 1s;
+	
+}
+.gstyle img:hover{
+	       width: 100%;
+	      border-radius: 15px 15px 0px 0px;
+	      opacity: 0.7; 
+}
+
+.gstyle:hover{
+	   border: 1px solid #BC0101;
+	   border-radius: 15px;
+	   
+}
+.pstyle{
+	   text-align: center;	
+}
