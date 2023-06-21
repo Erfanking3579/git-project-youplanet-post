@@ -30,7 +30,7 @@
     width:69.23px ;
     height:74.83px ;
     margin-top: 5px;
-    margin-right: 18%;
+    /* margin-right: 10%; */
     top: 5px;
     border-top: 7.5px solid;
     border-top-color: aliceblue;
@@ -47,7 +47,6 @@
    padding-top: 5%;
 
 }
- .border .right{
-    
- }
+
+
  
