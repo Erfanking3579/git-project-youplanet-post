@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cmt.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comment meno</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="header">
+
+            <div class="left"><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABBUlEQVR4nO3ZTQqDMBAF4HeKPOkV2+MWbE9jKXUhRcQk8xeZt3Il8xFNZgiQyWQyV8odwORdBH41fGtpygPAAmB2xkxrDctaU3UKgOf6gjeAG+zDTQ2vnho8MZRCeGIojfDAUAthiaE2wgJjhtDEmCM0MG4ISYw7QgITBtGDCYdowYRF1GDCI85ghkEcYYZD7M0Q899zhEGteWWGW4lttp+T53DWlUt8Wtz5sSOMzVU52p2GwfDEFhsew4pzIiyGDYddOAw7TuwwGAq0He4YCvZObhgqNIDmGCp2sWYYi1a8aGMs54mihfEYioo0xnOyK1KYCONpkcBc5urtMpehmUwmg3D5AAklyc9YEtl/AAAAAElFTkSuQmCC">
+                </div>
+            <div class="h2">
+                <h2> کامنت ها</h2>
+                <div class="border"></div>
+                </div>
+             <div class="right"><i class="fa fa-comments"></i></div>
+
+        </div>
+
+
+
+        
+    </div>
+    <div class="second">
+        <div class="profile">
+            <div class="userDetails">    
+                <div class="profile-img">
+                    
+                    <img src="images3.jpg" class="img"align="right">
+               <h4>4 hours</h4><h2>audience-online<br><span></span></h2></div>
+    
+                <div class="comment">
+                    <img src="heart.png" class="heart" onclick="likeButton()">
+                    <h3>Hello, I am very happy that you are satisfied whith the program.</h3>
+                </div>
+                <button  onclick="myfunction()" type="button" class="button">پاسخ دادن</button>
+                <h4 class="likes">2 likes</h4>
+            
+                    
+                
+            </div>
+        
+        </div>
+       
+        <div class="item"></div>
+    </div>
+
+
+
+   </div>
+   <style>
+    *{
+        margin: 0px;
+    }
+   </style>
+   <script>
+    function likeButton() {
+      let heart = document.querySelector('.heart');
+      let likes = document.querySelector('.likes');
+      if (heart.src.match("heart.png")){
+        heart.src = "heart-red.png";
+        likes.innerHTML = "3 likes"
+      }
+      else{
+        heart.src = "heart.png"
+        likes.innerHTML = "2 likes"
+      }
+  }
+ 
+function myfunction() {
+    window.open("mynewpage.html");
+}
+
+</script>
+</body>
+
+</html>
