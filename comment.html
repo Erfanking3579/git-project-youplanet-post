@@ -11,7 +11,7 @@
 
 <body>
     <div class="main">
-
+        <div class="scroll"></div>
         <div class="header">
 
             <div class="left"><img
@@ -29,12 +29,57 @@
 
         
     </div>
-
-
-
-
-
+    <div class="second">
+        <div class="profile">
+            <div class="userDetails">    
+                <div class="profile-img">
+                    
+                    <img src="images2.jpg" class="img"align="right">
+               <h4>2day</h4><h2>user-Name<br><span></span></h2></div>
+    
+                <div class="comment">
+                    <img src="heart.png" class="heart" onclick="likeButton()">
+                    <h3>Hello, this is my comment on YoPlant!</h3>
+                </div>
+                <button  onclick="myfunction()" type="button" class="button">پاسخ دادن</button>
+                <h4 class="likes">15 likes</h4>
+            
+                    
+                
+            </div>
+        
+        </div>
+       
+       
     </div>
+
+ 
+
+   </div>
+   <style>
+    div.scroll
+{
+overflow:scroll;}
+   </style>
+   <script>
+    function likeButton() {
+      let heart = document.querySelector('.heart');
+      let likes = document.querySelector('.likes');
+      if (heart.src.match("heart.png")){
+        heart.src = "heart-red.png";
+        likes.innerHTML = "16 likes"
+      }
+      else{
+        heart.src = "heart.png"
+        likes.innerHTML = "15 likes"
+      }
+  }
+ 
+function myfunction() {
+    window.open("mynewpage.html");
+}
+window.scrollTo(0, document.body.scrollHeight);
+</script>
 </body>
 
 </html>
